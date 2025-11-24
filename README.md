@@ -73,6 +73,7 @@ O agente vai:
   - SEO otimizado
   - Deploy na Vercel
   - [Ver repositório](https://github.com/cesar6449921/servitec-treinamentos)
+  - https://servitec-treinamentos.vercel.app/
 
 ## 🔧 Customização
 
