@@ -1,0 +1,50 @@
+{
+  "file": {
+    "name": "Replicating a bakery shop website (Community)",
+    "lastModified": "2025-12-04T22:19:43Z"
+  },
+  "node": {
+    "id": "0:1",
+    "name": "Page 1",
+    "type": "CANVAS"
+  },
+  "colors": [
+    "#f1f1f1",
+    "#010101",
+    "#000000",
+    "#ca6c26",
+    "#f5a66b",
+    "#d9d9d9",
+    "#222222",
+    "#f3a56b",
+    "#ff0000",
+    "#ffffff",
+    "#182f83"
+  ],
+  "typography": {
+    "fonts": [
+      "Sora"
+    ],
+    "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      32,
+      48,
+      60,
+      64,
+      96,
+      128
+    ],
+    "weights": [
+      300,
+      400,
+      600,
+      800
+    ]
+  }
+}

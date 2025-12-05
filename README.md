@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site Creator Agent
 
 Um agente de IA especializado em criar sites profissionais usando React, Vite e Tailwind CSS.
@@ -125,3 +126,45 @@ Desenvolvido por [Million New Era](https://github.com/cesar6449921)
 ---
 
 **⭐ Se este projeto te ajudou, deixe uma estrela!**
+=======
+# 🚀 Workspace de Desenvolvimento v1
+
+Bem-vindo ao workspace central de desenvolvimento. Este ambiente é organizado para separar projetos de produção das ferramentas de automação do agente.
+
+## 📂 Estrutura de Pastas
+
+### 🏗️ `/projects`
+Contém os projetos de sites em desenvolvimento.
+- **`padaria-monza/`**: Site institucional da Padaria Monza (React + Tailwind).
+
+### 🛠️ `/tools`
+Ferramentas de automação e utilitários do agente.
+- **`figma/`**: Scripts para extração de design system do Figma.
+- **`cloner/`**: Ferramenta para clonagem de sites de referência.
+
+### ⚙️ `/agent_setup`
+Configurações e instruções globais do agente.
+
+---
+
+## 🚀 Como Iniciar
+
+1.  **Escolha um projeto**:
+    ```bash
+    cd projects/padaria-monza
+    ```
+
+2.  **Instale dependências** (se necessário):
+    ```bash
+    npm install
+    ```
+
+3.  **Inicie o servidor**:
+    ```bash
+    npm run dev
+    ```
+
+## 🤖 Ferramentas Disponíveis
+
+Consulte `tools/README.md` para documentação detalhada sobre como usar o extrator do Figma e o clonador de sites.
+>>>>>>> 97fbf00 (feat: estrutura do workspace (tools, projects))

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 *.log
 
@@ -8,3 +9,14 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+=======
+node_modules
+.DS_Store
+.env
+dist
+build
+coverage
+.vscode
+.idea
+*.log
+>>>>>>> 97fbf00 (feat: estrutura do workspace (tools, projects))
