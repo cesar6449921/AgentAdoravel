@@ -1,21 +1,24 @@
-<<<<<<< HEAD
-# Site Creator Agent
+# 🤖 AgentAdoravel - Site Creator Agent
 
-Um agente de IA especializado em criar sites profissionais usando React, Vite e Tailwind CSS.
+Um agente de IA especializado em criar sites profissionais usando React, Vite e Tailwind CSS. Este repositório contém o workspace central de desenvolvimento, ferramentas e projetos.
 
-## 🤖 O que é isso?
+## 📂 Estrutura do Workspace
 
-Este repositório contém as configurações para um agente de IA (Google Gemini 2.0 Flash) que funciona como um desenvolvedor web profissional. Ele pode criar sites completos do zero, seguindo as melhores práticas de desenvolvimento.
+### 🏗️ `/projects`
+Aqui ficam os projetos de sites em desenvolvimento. Cada projeto é independente.
+- **`padaria-monza/`**: Site institucional da Padaria Monza (React + Tailwind).
 
-## 📁 Estrutura
+### 🛠️ `/tools`
+Ferramentas de automação e utilitários para acelerar o desenvolvimento.
+- **`figma/`**: Scripts para extração de design system (cores, fontes) do Figma.
+- **`cloner/`**: Ferramenta para clonagem de sites de referência (HTML + Assets).
 
-```
-agent_setup/
-├── system_prompt.md      # Personalidade e comportamento do agente
-└── tools_config.md       # Mapeamento de ferramentas e tarefas
-```
+### ⚙️ `/agent_setup`
+Configurações e instruções globais do agente (System Prompt, Tools Config).
 
-## ✨ Características
+---
+
+## ✨ Características do Agente
 
 ### Stack Tecnológica (Golden Stack)
 - **Framework:** React 19 + TypeScript
@@ -26,145 +29,37 @@ agent_setup/
 - **Routing:** React Router v7
 
 ### Princípios de Design
-- ✅ Designs premium e modernos (não MVPs básicos)
+- ✅ Designs premium e modernos
 - ✅ Responsivo (mobile-first)
 - ✅ SEO otimizado
-- ✅ Performance (lazy loading, code splitting)
-- ✅ Acessibilidade
-
-## 🚀 Como Usar
-
-### 1. Pré-requisitos
-- Acesso ao Google AI Studio ou Gemini API
-- Node.js 18+ instalado
-- Git instalado
-
-### 2. Configuração
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/SEU-USUARIO/site-creator-agent.git
-cd site-creator-agent
-```
-
-2. Use os arquivos de configuração no seu projeto:
-   - Copie `agent_setup/` para a raiz do seu workspace
-   - O agente vai ler automaticamente as configurações
-
-### 3. Criar um Novo Site
-
-Basta pedir ao agente:
-```
-"Crie um site para [nome da empresa] com [descrição]"
-```
-
-O agente vai:
-1. Criar a estrutura do projeto
-2. Instalar dependências
-3. Configurar Tailwind com cores personalizadas
-4. Criar componentes reutilizáveis
-5. Implementar páginas
-6. Otimizar para produção
-7. Preparar para deploy
-
-## 📚 Exemplos de Projetos Criados
-
-- **Servitec Treinamentos** - Site de treinamentos em segurança do trabalho
-  - 6 páginas completas
-  - SEO otimizado
-  - Deploy na Vercel
-  - [Ver repositório](https://github.com/cesar6449921/servitec-treinamentos)
-  - https://servitec-treinamentos.vercel.app/
-
-## 🔧 Customização
-
-### Modificar o Comportamento
-Edite `agent_setup/system_prompt.md` para:
-- Mudar o stack tecnológico
-- Adicionar novas regras de design
-- Definir workflows personalizados
-
-### Adicionar Novas Ferramentas
-Edite `agent_setup/tools_config.md` para:
-- Mapear novas tarefas
-- Definir ferramentas específicas
-- Criar workflows automatizados
-
-## 🌐 Compatibilidade
-
-| Plataforma | Status | Observações |
-|------------|--------|-------------|
-| Google AI Studio | ✅ Nativo | Funciona perfeitamente |
-| Gemini API | ✅ Sim | Requer configuração de API |
-| Cursor/Windsurf | ⚠️ Parcial | Precisa adaptar para `.cursorrules` |
-| Claude | ⚠️ Parcial | Precisa adaptar para `.clinerules` |
-| GitHub Copilot | ❌ Não | Não suporta custom prompts |
-
-## 📖 Documentação
-
-- [System Prompt](agent_setup/system_prompt.md) - Configuração completa do agente
-- [Tools Config](agent_setup/tools_config.md) - Mapeamento de ferramentas
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Se você melhorou o agente ou criou novos workflows:
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Add: nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## 📝 Licença
-
-MIT License - sinta-se livre para usar em projetos pessoais ou comerciais.
-
-## 🙏 Créditos
-
-Desenvolvido por [Million New Era](https://github.com/cesar6449921)
-
----
-
-**⭐ Se este projeto te ajudou, deixe uma estrela!**
-=======
-# 🚀 Workspace de Desenvolvimento v1
-
-Bem-vindo ao workspace central de desenvolvimento. Este ambiente é organizado para separar projetos de produção das ferramentas de automação do agente.
-
-## 📂 Estrutura de Pastas
-
-### 🏗️ `/projects`
-Contém os projetos de sites em desenvolvimento.
-- **`padaria-monza/`**: Site institucional da Padaria Monza (React + Tailwind).
-
-### 🛠️ `/tools`
-Ferramentas de automação e utilitários do agente.
-- **`figma/`**: Scripts para extração de design system do Figma.
-- **`cloner/`**: Ferramenta para clonagem de sites de referência.
-
-### ⚙️ `/agent_setup`
-Configurações e instruções globais do agente.
+- ✅ Performance
 
 ---
 
 ## 🚀 Como Iniciar
 
-1.  **Escolha um projeto**:
-    ```bash
-    cd projects/padaria-monza
-    ```
-
-2.  **Instale dependências** (se necessário):
-    ```bash
-    npm install
-    ```
-
-3.  **Inicie o servidor**:
-    ```bash
-    npm run dev
-    ```
-
-## 🤖 Ferramentas Disponíveis
-
+### 1. Usar Ferramentas
 Consulte `tools/README.md` para documentação detalhada sobre como usar o extrator do Figma e o clonador de sites.
->>>>>>> 97fbf00 (feat: estrutura do workspace (tools, projects))
+
+### 2. Rodar um Projeto
+Exemplo com Padaria Monza:
+```bash
+cd projects/padaria-monza
+npm install
+npm run dev
+```
+
+---
+
+## 🔧 Customização
+
+### Modificar o Comportamento
+Edite `agent_setup/system_prompt.md` para mudar o stack ou regras de design.
+
+### Adicionar Novas Ferramentas
+Edite `agent_setup/tools_config.md` e adicione scripts em `tools/`.
+
+---
+
+## 📝 Licença
+MIT License - Desenvolvido por [Million New Era](https://github.com/cesar6449921)
